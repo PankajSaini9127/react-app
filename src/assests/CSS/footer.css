@@ -1,0 +1,36 @@
+
+.footerEmail{
+    font-size: 20px;
+    margin: 16px 0 48px;
+    color: #FFFFFFA6;
+}
+
+.FooterCopyRight{
+    color: #FFFFFFA6;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.footerSideContent{
+    color: #FFFFFFA6;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+@media screen and (max-width:990px) {
+    .footerText{
+        text-align: center;
+    }
+    .footerSubtext{
+        text-align: center;
+        margin: 15px 0 !important;
+    }
+    .FooterCopyRight{
+        margin-top: 15px !important;
+    }
+    .footerIcon{
+        margin: 20px 10px;
+        font-size: 35px !important;
+    }
+}
